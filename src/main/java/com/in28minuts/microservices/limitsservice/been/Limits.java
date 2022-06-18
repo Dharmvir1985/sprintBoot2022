@@ -1,12 +1,9 @@
 package com.in28minuts.microservices.limitsservice.been;
 
-import java.util.Date;
-
 public class Limits {
  
 	private int minimum;
 	private int maximum;
-	private Date date;
 	public int getMinimum() {
 		return minimum;
 	}
